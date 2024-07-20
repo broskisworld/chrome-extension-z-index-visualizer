@@ -73,9 +73,8 @@ export function PlaneStack({ planes, ...props }: Props) {
                 depth * 3}px;
                 width: ${height * planeRatio}px;
                 height: ${width * planeRatio}px;
-                background-color: ${bgColor === DEFAULT_DOM_BG
-                  ? 'white'
-                  : bgColor};
+                background-color: rgba(0, 0, 0, ${0.04 * depth});
+                opacity: .9;
                 transition: filter ease 0.2s;
                 border: 1px solid ${color.borderColor};
                 border-radius: 5px;
