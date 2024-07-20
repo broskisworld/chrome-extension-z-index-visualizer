@@ -47,6 +47,10 @@ export function StackingContext({ planeTree }: Props) {
     $target.current = null;
   };
 
+  // TODO: Use html2canvas to get a screenshot of the image
+
+  // TODO: Use the shape outline as a mask? Or at least display the true border radius of the object?
+
   return (
     <div
       ref={$drag}
