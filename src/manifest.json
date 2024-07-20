@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Z-index Visualizer",
+  "name": "Z-index Visualizer (Josh's version)",
   "description": "A tool that visualizes (2.5D) the stacking contexts of web pages.",
   "background": { "service_worker": "background.bundle.js" },
   "version": "1.0.0",
